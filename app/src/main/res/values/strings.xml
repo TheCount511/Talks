@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Talks</string>
+    <string name="empty_adapter">No Feeds to show here</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="placeholder_news">Send us a tip on UK waterparks for the chance to win a £200 hotel voucher</string>
+    <string name="placeholder_section">Travel</string>
+    <string name="placeholder_date">Published on 2018 &#8211; 07 &#8211; 17 16:43:15</string>
+</resources>
