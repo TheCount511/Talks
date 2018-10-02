@@ -23,7 +23,8 @@ import java.util.List;
 
 public class SportsFragment extends Fragment implements LoaderManager.LoaderCallbacks<List<Feeds>> {
     public static final String LOG_TAG = BusinessFragment.class.getName();
-    private static final String GUARDIAN_API_URL = "https://content.guardianapis.com/sport?api-key=29461360-794a-4dd6-9000-31da4159c370";
+    //i have removed my api keys for obvious reasons so they should be replaced by anyone whom seeks to reference this project
+    private static final String GUARDIAN_API_URL = "https://content.guardianapis.com/sport?api-key=test";
     ListView feedsListView;
     private FeedsDataAdapter adapter;
     private ProgressBar loading;
