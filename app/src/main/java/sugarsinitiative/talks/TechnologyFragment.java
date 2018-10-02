@@ -23,7 +23,7 @@ import java.util.List;
 
 public class TechnologyFragment extends Fragment implements LoaderManager.LoaderCallbacks<List<Feeds>> {
     public static final String LOG_TAG = BusinessFragment.class.getName();
-    private static final String GUARDIAN_API_URL = "https://content.guardianapis.com/technology?api-key=29461360-794a-4dd6-9000-31da4159c370";
+    private static final String GUARDIAN_API_URL = "https://content.guardianapis.com/technology?api-key=test";
     ListView feedsListView;
     private FeedsDataAdapter adapter;
     private ProgressBar loading;
